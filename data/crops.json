@@ -1,0 +1,323 @@
+{
+  "Tomato": {
+    "growth_duration_days": 120,
+    "seed_rate_kg_per_acre": 0.15,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 60,
+      "P": 40,
+      "K": 50
+    },
+    "description": "Warm-season crop requiring well-drained loam soil with high organic matter.",
+    "stages": [
+      {
+        "stage": "Nursery & Sowing",
+        "day_offset": 0,
+        "duration_days": 25,
+        "action": "Sow seeds in nursery beds or seedling trays with coco-peat.",
+        "category": "Sowing",
+        "details": "Ensure good drainage, protect from direct harsh sun, and maintain optimal moisture."
+      },
+      {
+        "stage": "Transplanting",
+        "day_offset": 25,
+        "duration_days": 5,
+        "action": "Transplant seedlings to the main field.",
+        "category": "Planting",
+        "details": "Space plants 45-60cm apart. Apply light starter irrigation right after planting."
+      },
+      {
+        "stage": "First Fertilizer Dose",
+        "day_offset": 40,
+        "duration_days": 5,
+        "action": "Apply NPK 19:19:19 fertilizer near root zone.",
+        "category": "Fertilizer",
+        "details": "Combine with weeding and light soil aerating around the base."
+      },
+      {
+        "stage": "First Weeding & Staking",
+        "day_offset": 55,
+        "duration_days": 7,
+        "action": "Stake tomato vines with bamboo poles and remove weeds.",
+        "category": "Maintenance",
+        "details": "Prevents fungal foliar diseases by keeping leaves off moist ground."
+      },
+      {
+        "stage": "Flowering & Fruit Set",
+        "day_offset": 75,
+        "duration_days": 10,
+        "action": "Apply Potassium-rich fertilizer & spray micronutrients (Boron/Calcium).",
+        "category": "Fertilizer",
+        "details": "Monitor closely for fruit borer pest infestation and blossom end rot."
+      },
+      {
+        "stage": "Fruit Development & Pest Check",
+        "day_offset": 85,
+        "duration_days": 7,
+        "action": "Inspect for leaf curl virus, whiteflies, and fruit borers.",
+        "category": "Pest Control",
+        "details": "Use pheromone traps or neem oil spray if threshold exceeded."
+      },
+      {
+        "stage": "Harvesting Begins",
+        "day_offset": 95,
+        "duration_days": 25,
+        "action": "Pick mature breaker-stage fruits every 3–4 days.",
+        "category": "Harvesting",
+        "details": "Harvest during early morning to preserve freshness and prolong shelf life."
+      }
+    ]
+  },
+  "Paddy (Rice)": {
+    "growth_duration_days": 130,
+    "seed_rate_kg_per_acre": 18.0,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 50,
+      "P": 25,
+      "K": 25
+    },
+    "description": "Staple wetland cereal crop requiring standing water management and puddle soil prep.",
+    "stages": [
+      {
+        "stage": "Sowing/Nursery",
+        "day_offset": 0,
+        "duration_days": 21,
+        "action": "Prepare seedbed and sow pre-germinated paddy seeds.",
+        "category": "Sowing",
+        "details": "Keep nursery bed saturated with water and treat seeds with fungicide."
+      },
+      {
+        "stage": "Main Field Transplanting",
+        "day_offset": 21,
+        "duration_days": 7,
+        "action": "Transplant 2-3 seedlings per hill at 20x15cm spacing.",
+        "category": "Planting",
+        "details": "Maintain 2–3 cm standing water in puddled main field."
+      },
+      {
+        "stage": "Tillering & Top Dressing",
+        "day_offset": 45,
+        "duration_days": 5,
+        "action": "Apply Urea (Nitrogen) top dressing.",
+        "category": "Fertilizer",
+        "details": "Drain excess field water 1 day before applying Urea for better absorption."
+      },
+      {
+        "stage": "Weeding & Water Regulation",
+        "day_offset": 55,
+        "duration_days": 5,
+        "action": "Perform cono-weeding or manual weeding; regulate standing water.",
+        "category": "Weeding",
+        "details": "Incorporate weeds back into the soil to boost organic matter."
+      },
+      {
+        "stage": "Panicle Initiation",
+        "day_offset": 70,
+        "duration_days": 8,
+        "action": "Apply MOP (Muriate of Potash) fertilizer.",
+        "category": "Fertilizer",
+        "details": "Critical watering window - do not allow field to dry out."
+      },
+      {
+        "stage": "Flowering & Grain Filling",
+        "day_offset": 90,
+        "duration_days": 15,
+        "action": "Inspect for blast disease and stem borer; keep shallow water layer.",
+        "category": "Maintenance",
+        "details": "Watch out for brown plant hopper (BPH) at base of stems."
+      },
+      {
+        "stage": "Harvesting",
+        "day_offset": 125,
+        "duration_days": 7,
+        "action": "Harvest when 80-85% of grains turn golden yellow.",
+        "category": "Harvesting",
+        "details": "Drain water 10 days before expected harvest to firm the ground for machinery."
+      }
+    ]
+  },
+  "Wheat": {
+    "growth_duration_days": 120,
+    "seed_rate_kg_per_acre": 45.0,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 50,
+      "P": 25,
+      "K": 20
+    },
+    "description": "Cool-season rabi cereal crop that thrives in rich, well-aerated loam.",
+    "stages": [
+      {
+        "stage": "Land Prep & Sowing",
+        "day_offset": 0,
+        "duration_days": 5,
+        "action": "Sow treated certified wheat seeds at 4-5 cm depth using seed drill.",
+        "category": "Sowing",
+        "details": "Apply basal dose of DAP and Potash during sowing."
+      },
+      {
+        "stage": "CRI (Crown Root Initiation) Irrigation",
+        "day_offset": 21,
+        "duration_days": 4,
+        "action": "Provide 1st critical irrigation at Crown Root Initiation stage.",
+        "category": "Irrigation",
+        "details": "Most moisture-critical phase; yield severely drops if missed."
+      },
+      {
+        "stage": "First Weeding & Nitrogen Top Dressing",
+        "day_offset": 35,
+        "duration_days": 6,
+        "action": "Apply 1st split dose of Urea and spray broadleaf herbicide.",
+        "category": "Fertilizer",
+        "details": "Remove Phalaris minor (canary grass) and Chenopodium album weeds."
+      },
+      {
+        "stage": "Tillering & Jointing Irrigation",
+        "day_offset": 45,
+        "duration_days": 5,
+        "action": "Provide 2nd irrigation and inspect for yellow rust or aphids.",
+        "category": "Irrigation",
+        "details": "Foliar spray of propiconazole if yellow powdery streaks appear on leaves."
+      },
+      {
+        "stage": "Booting / Flowering Stage",
+        "day_offset": 70,
+        "duration_days": 8,
+        "action": "Apply 2nd split dose of Urea and ensure moisture supply.",
+        "category": "Fertilizer",
+        "details": "Irrigate gently to prevent lodging due to spring winds."
+      },
+      {
+        "stage": "Milking & Dough Stage",
+        "day_offset": 95,
+        "duration_days": 10,
+        "action": "Give final light irrigation during early dough stage.",
+        "category": "Irrigation",
+        "details": "Stop all irrigation when grain enters hard dough stage to enable drying."
+      },
+      {
+        "stage": "Maturity & Harvesting",
+        "day_offset": 115,
+        "duration_days": 6,
+        "action": "Combine harvest when grain moisture falls below 14%.",
+        "category": "Harvesting",
+        "details": "Dry harvested grains in sun to 10-12% moisture before storage."
+      }
+    ]
+  },
+  "Maize (Corn)": {
+    "growth_duration_days": 110,
+    "seed_rate_kg_per_acre": 8.0,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 60,
+      "P": 30,
+      "K": 25
+    },
+    "description": "Versatile warm-weather grain and fodder crop with fast vegetative development.",
+    "stages": [
+      {
+        "stage": "Sowing & Basal Fertilizer",
+        "day_offset": 0,
+        "duration_days": 4,
+        "action": "Sow seeds 60cm row-to-row and 20cm plant-to-plant.",
+        "category": "Sowing",
+        "details": "Apply full P, full K, and 1/3rd of N as basal dose."
+      },
+      {
+        "stage": "Knee-High Stage (V6)",
+        "day_offset": 30,
+        "duration_days": 5,
+        "action": "Apply second split of Nitrogen (Urea) and earth up rows.",
+        "category": "Fertilizer",
+        "details": "Scout for Fall Armyworm (FAW) whorl feeding."
+      },
+      {
+        "stage": "Tasseling & Silking Stage",
+        "day_offset": 55,
+        "duration_days": 10,
+        "action": "Provide critical irrigation; avoid water stress during pollination.",
+        "category": "Irrigation",
+        "details": "Moisture deficit now drastically reduces kernel count."
+      },
+      {
+        "stage": "Grain Filling / Dent Stage",
+        "day_offset": 80,
+        "duration_days": 8,
+        "action": "Maintain soil moisture and monitor cob borer pests.",
+        "category": "Maintenance",
+        "details": "Nutrients translocate rapidly into kernel starch."
+      },
+      {
+        "stage": "Physiological Maturity & Harvest",
+        "day_offset": 105,
+        "duration_days": 6,
+        "action": "Harvest when black layer forms at the tip of the kernel base.",
+        "category": "Harvesting",
+        "details": "Husks turn pale and dry; thresh and sun dry immediately."
+      }
+    ]
+  },
+  "Potato": {
+    "growth_duration_days": 100,
+    "seed_rate_kg_per_acre": 1000.0,
+    "seed_unit": "kg (seed tubers)",
+    "npk_kg_per_acre": {
+      "N": 75,
+      "P": 40,
+      "K": 50
+    },
+    "description": "Cool-season tuber crop needing loose, friable soil and consistent moisture.",
+    "stages": [
+      {
+        "stage": "Tuber Planting & Basal Dose",
+        "day_offset": 0,
+        "duration_days": 5,
+        "action": "Plant sprouted seed tubers in furrows 50-60cm apart.",
+        "category": "Planting",
+        "details": "Treat tubers with bio-fungicide to prevent black scurf."
+      },
+      {
+        "stage": "Emergence & First Irrigation",
+        "day_offset": 15,
+        "duration_days": 4,
+        "action": "Apply light irrigation when shoots emerge uniformly.",
+        "category": "Irrigation",
+        "details": "Avoid heavy flooding to prevent seed tuber rot."
+      },
+      {
+        "stage": "Earthing Up & Nitrogen Top Dress",
+        "day_offset": 30,
+        "duration_days": 5,
+        "action": "Mound soil around stems and apply remaining Nitrogen.",
+        "category": "Maintenance",
+        "details": "Prevents developing tubers from turning green due to sun exposure."
+      },
+      {
+        "stage": "Tuber Bulking & Late Blight Watch",
+        "day_offset": 55,
+        "duration_days": 10,
+        "action": "Maintain frequent light irrigations and spray protective fungicide.",
+        "category": "Pest Control",
+        "details": "Late blight can decimate foliage rapidly in cool humid weather."
+      },
+      {
+        "stage": "Dehaulming (Vine Cutting)",
+        "day_offset": 85,
+        "duration_days": 3,
+        "action": "Cut top foliage 10-15 days before harvest to harden tuber skin.",
+        "category": "Maintenance",
+        "details": "Stop irrigation completely to dry soil for digging."
+      },
+      {
+        "stage": "Tuber Harvesting & Curing",
+        "day_offset": 98,
+        "duration_days": 5,
+        "action": "Carefully dig tubers without bruising; cure in shade for 10 days.",
+        "category": "Harvesting",
+        "details": "Curing heals skin abrasions and prevents storage decay."
+      }
+    ]
+  }
+}
