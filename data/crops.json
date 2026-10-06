@@ -8,7 +8,7 @@
       "P": 40,
       "K": 50
     },
-    "description": "Warm-season crop requiring well-drained loam soil with high organic matter.",
+    "description": "Warm-season vegetable requiring well-drained loam soil with high organic matter.",
     "stages": [
       {
         "stage": "Nursery & Sowing",
@@ -317,6 +317,494 @@
         "action": "Carefully dig tubers without bruising; cure in shade for 10 days.",
         "category": "Harvesting",
         "details": "Curing heals skin abrasions and prevents storage decay."
+      }
+    ]
+  },
+  "Cotton": {
+    "growth_duration_days": 160,
+    "seed_rate_kg_per_acre": 2.5,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 50,
+      "P": 25,
+      "K": 25
+    },
+    "description": "Major commercial fiber crop requiring warm weather, deep black cotton or loamy soil.",
+    "stages": [
+      {
+        "stage": "Sowing & Basal Nutrition",
+        "day_offset": 0,
+        "duration_days": 5,
+        "action": "Dibble delinted seeds at 90x60cm spacing in ridges.",
+        "category": "Sowing",
+        "details": "Ensure soil moisture is adequate; apply basal dose of DAP and Potash."
+      },
+      {
+        "stage": "Square Initiation & Weeding",
+        "day_offset": 35,
+        "duration_days": 7,
+        "action": "Remove weeds and apply 1st split of Nitrogen (Urea).",
+        "category": "Maintenance",
+        "details": "Floral bud (square) formation starts; check for sucking pests like jassids."
+      },
+      {
+        "stage": "Peak Flowering & Top Dressing",
+        "day_offset": 65,
+        "duration_days": 10,
+        "action": "Apply 2nd split of Nitrogen and spray 2% DAP or Potassium Nitrate for boll retention.",
+        "category": "Fertilizer",
+        "details": "Water stress at this stage leads to heavy flower drop."
+      },
+      {
+        "stage": "Boll Formation & Pest Scouting",
+        "day_offset": 95,
+        "duration_days": 12,
+        "action": "Inspect bolls for pink bollworm and spodoptera; deploy pheromone traps.",
+        "category": "Pest Control",
+        "details": "Look for rosette flowers and entrance holes on young bolls."
+      },
+      {
+        "stage": "First Boll Burst & 1st Picking",
+        "day_offset": 130,
+        "duration_days": 10,
+        "action": "Pick fully opened, clean white cotton bolls in dry sunny weather.",
+        "category": "Harvesting",
+        "details": "Avoid collecting bracts and trash with lint."
+      },
+      {
+        "stage": "Second Picking & Field Clean-Up",
+        "day_offset": 155,
+        "duration_days": 7,
+        "action": "Complete final picking of opened bolls and shred crop stalks.",
+        "category": "Harvesting",
+        "details": "Shredding stalks breaks the overwintering cycle of pink bollworm."
+      }
+    ]
+  },
+  "Soybean": {
+    "growth_duration_days": 95,
+    "seed_rate_kg_per_acre": 30.0,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 15,
+      "P": 35,
+      "K": 20
+    },
+    "description": "High-protein legume and oilseed crop that enriches soil through atmospheric nitrogen fixation.",
+    "stages": [
+      {
+        "stage": "Seed Inoculation & Sowing",
+        "day_offset": 0,
+        "duration_days": 4,
+        "action": "Treat seeds with Rhizobium culture and sow at 45x5cm spacing.",
+        "category": "Sowing",
+        "details": "Do not sow deeper than 3-4 cm to avoid poor germination."
+      },
+      {
+        "stage": "Early Weeding & Hoeing",
+        "day_offset": 20,
+        "duration_days": 5,
+        "action": "Perform mechanical inter-cultivation or spray post-emergence herbicide.",
+        "category": "Weeding",
+        "details": "Keep field strictly weed-free during first 30 days."
+      },
+      {
+        "stage": "Flowering & Pod Initiation",
+        "day_offset": 40,
+        "duration_days": 8,
+        "action": "Ensure soil moisture; spray 19:19:19 or bio-stimulant.",
+        "category": "Maintenance",
+        "details": "Check for girdle beetle and tobacco caterpillar infestation."
+      },
+      {
+        "stage": "Pod Filling Stage",
+        "day_offset": 65,
+        "duration_days": 8,
+        "action": "Critical irrigation if rain fails; monitor for pod blight.",
+        "category": "Irrigation",
+        "details": "Moisture stress during pod fill leads to shriveled beans."
+      },
+      {
+        "stage": "Harvesting & Threshing",
+        "day_offset": 90,
+        "duration_days": 5,
+        "action": "Harvest when leaves turn yellow and drop off, and pods rattle when shaken.",
+        "category": "Harvesting",
+        "details": "Harvest early morning to prevent pod shattering."
+      }
+    ]
+  },
+  "Sugarcane": {
+    "growth_duration_days": 360,
+    "seed_rate_kg_per_acre": 3000.0,
+    "seed_unit": "kg (cane setts)",
+    "npk_kg_per_acre": {
+      "N": 120,
+      "P": 50,
+      "K": 60
+    },
+    "description": "Perennial high-biomass sugar cash crop requiring abundant sunlight and sustained irrigation.",
+    "stages": [
+      {
+        "stage": "Sett Treatment & Planting",
+        "day_offset": 0,
+        "duration_days": 10,
+        "action": "Plant two/three bud setts treated with carbendazim in deep furrows.",
+        "category": "Planting",
+        "details": "Apply full basal P and 1/3rd K with farmyard manure."
+      },
+      {
+        "stage": "Germination & Early Hoeing",
+        "day_offset": 35,
+        "duration_days": 8,
+        "action": "Light weeding, hoeing, and initial Nitrogen top dress.",
+        "category": "Maintenance",
+        "details": "Fill gaps if germination count is low."
+      },
+      {
+        "stage": "Tillering & First Earthing Up",
+        "day_offset": 75,
+        "duration_days": 10,
+        "action": "Apply 2nd dose of Nitrogen and build light ridges around canes.",
+        "category": "Fertilizer",
+        "details": "Suppresses weeds and supports cane shoots."
+      },
+      {
+        "stage": "Grand Growth & Heavy Earthing Up",
+        "day_offset": 120,
+        "duration_days": 12,
+        "action": "Apply final Nitrogen & Potash dose; complete deep earthing up.",
+        "category": "Maintenance",
+        "details": "Prevents lodging and suppresses late unproductive tillers."
+      },
+      {
+        "stage": "Trash Mulching & Stem Borer Watch",
+        "day_offset": 180,
+        "duration_days": 15,
+        "action": "Spread dry sugarcane trash in furrows; monitor for internode borer.",
+        "category": "Pest Control",
+        "details": "Trash mulching conserves precious soil water."
+      },
+      {
+        "stage": "Maturity & Sucrose Ripening",
+        "day_offset": 300,
+        "duration_days": 30,
+        "action": "Reduce irrigation frequency to encourage sugar concentration in stalks.",
+        "category": "Maintenance",
+        "details": "Test Brix reading with hand refractometer (optimal > 18%)."
+      },
+      {
+        "stage": "Harvesting",
+        "day_offset": 350,
+        "duration_days": 15,
+        "action": "Cut canes flush with ground level to harvest high-sugar bottom stalks.",
+        "category": "Harvesting",
+        "details": "Crush within 24-48 hours to minimize sucrose inversion."
+      }
+    ]
+  },
+  "Groundnut (Peanut)": {
+    "growth_duration_days": 115,
+    "seed_rate_kg_per_acre": 45.0,
+    "seed_unit": "kg (kernels)",
+    "npk_kg_per_acre": {
+      "N": 15,
+      "P": 30,
+      "K": 25
+    },
+    "description": "Valuable subterranean oilseed legume thriving in light sandy loam soil.",
+    "stages": [
+      {
+        "stage": "Kernel Sowing & Basal Fertilizer",
+        "day_offset": 0,
+        "duration_days": 5,
+        "action": "Sow certified bold kernels treated with Trichoderma at 30x10cm spacing.",
+        "category": "Sowing",
+        "details": "Soil must be moist and well-tilled for uniform emergence."
+      },
+      {
+        "stage": "Weeding & Intercultivation",
+        "day_offset": 20,
+        "duration_days": 5,
+        "action": "Manual weeding and blade harrowing to loosen soil crust.",
+        "category": "Weeding",
+        "details": "Must be completed strictly before peg initiation."
+      },
+      {
+        "stage": "Flowering & Pegging Phase",
+        "day_offset": 40,
+        "duration_days": 10,
+        "action": "Provide light irrigation; DO NOT disturb soil around plants.",
+        "category": "Maintenance",
+        "details": "Pegs penetrate ground to form pods; hoeing now damages pegs."
+      },
+      {
+        "stage": "Gypsum Application & Pod Bulking",
+        "day_offset": 55,
+        "duration_days": 7,
+        "action": "Broadcast 100 kg Gypsum per acre around base and irrigate lightly.",
+        "category": "Fertilizer",
+        "details": "Calcium from gypsum ensures well-filled pods and prevents 'pops' (empty shells)."
+      },
+      {
+        "stage": "Tikka Disease & Rust Inspection",
+        "day_offset": 75,
+        "duration_days": 7,
+        "action": "Inspect leaves for dark leaf spots (Tikka); spray chlorothalonil if needed.",
+        "category": "Pest Control",
+        "details": "Foliar diseases cause premature leaf drop and reduce kernel weight."
+      },
+      {
+        "stage": "Harvesting & Sun Curing",
+        "day_offset": 110,
+        "duration_days": 6,
+        "action": "Pull plants when inner shell wall turns dark brown; sun dry pods.",
+        "category": "Harvesting",
+        "details": "Dry until pod moisture drops below 9% to prevent aflatoxin mold."
+      }
+    ]
+  },
+  "Chickpea (Gram)": {
+    "growth_duration_days": 105,
+    "seed_rate_kg_per_acre": 35.0,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 10,
+      "P": 25,
+      "K": 15
+    },
+    "description": "Cool-season major pulse crop requiring well-drained medium-to-heavy soil with residual moisture.",
+    "stages": [
+      {
+        "stage": "Sowing & Seed Inoculation",
+        "day_offset": 0,
+        "duration_days": 4,
+        "action": "Sow deep in moist soil (8-10 cm) to avoid wilt disease.",
+        "category": "Sowing",
+        "details": "Inoculate seeds with Rhizobium and PSB cultures."
+      },
+      {
+        "stage": "Nipping / Topping for Branching",
+        "day_offset": 30,
+        "duration_days": 5,
+        "action": "Pluck top terminal buds to encourage bushy lateral branching.",
+        "category": "Maintenance",
+        "details": "Increases number of flowering branches and pod yield significantly."
+      },
+      {
+        "stage": "Pre-Flowering Irrigation",
+        "day_offset": 45,
+        "duration_days": 4,
+        "action": "Provide 1st light irrigation if winter rains fail.",
+        "category": "Irrigation",
+        "details": "Never irrigate at peak flowering, as it induces vegetative surge and flower drop."
+      },
+      {
+        "stage": "Pod Borer (Helicoverpa) Watch",
+        "day_offset": 65,
+        "duration_days": 8,
+        "action": "Install pheromone traps (4-5/acre) and spray neem seed extract or spinosad.",
+        "category": "Pest Control",
+        "details": "Scout for caterpillars chewing into developing pods."
+      },
+      {
+        "stage": "Pod Development Stage",
+        "day_offset": 80,
+        "duration_days": 5,
+        "action": "Give final light irrigation at early pod fill stage.",
+        "category": "Irrigation",
+        "details": "Ensures plump, well-sized chickpeas."
+      },
+      {
+        "stage": "Harvesting & Threshing",
+        "day_offset": 102,
+        "duration_days": 5,
+        "action": "Cut plants when leaves turn straw-yellow and pods are crisp and dry.",
+        "category": "Harvesting",
+        "details": "Thresh and winnow; store in pest-proof gunny bags."
+      }
+    ]
+  },
+  "Mustard": {
+    "growth_duration_days": 110,
+    "seed_rate_kg_per_acre": 2.0,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 35,
+      "P": 20,
+      "K": 15
+    },
+    "description": "Cruciferous rabi oilseed crop requiring cool dry weather and bright sunshine.",
+    "stages": [
+      {
+        "stage": "Sowing & Basal Fertilizer",
+        "day_offset": 0,
+        "duration_days": 4,
+        "action": "Sow seeds mixed with sand at 4-5 cm depth with line spacing 30-45 cm.",
+        "category": "Sowing",
+        "details": "Apply full P, full K, and 50% N along with Sulphur (20 kg/acre)."
+      },
+      {
+        "stage": "Thinning & First Irrigation",
+        "day_offset": 25,
+        "duration_days": 5,
+        "action": "Thin seedlings to 10-15 cm within row and irrigate lightly.",
+        "category": "Maintenance",
+        "details": "Thinning prevents overcrowding and stem spindling."
+      },
+      {
+        "stage": "Flowering & Nitrogen Top Dressing",
+        "day_offset": 45,
+        "duration_days": 6,
+        "action": "Apply remaining Nitrogen (Urea) and give second irrigation.",
+        "category": "Fertilizer",
+        "details": "Ensure adequate soil moisture during flowering initiation."
+      },
+      {
+        "stage": "Aphid Scouting & Management",
+        "day_offset": 65,
+        "duration_days": 8,
+        "action": "Scout for mustard aphids on tender inflorescences; spray imidacloprid if needed.",
+        "category": "Pest Control",
+        "details": "Cloudy humid weather triggers rapid aphid multiplication."
+      },
+      {
+        "stage": "Pod (Siliqua) Filling",
+        "day_offset": 85,
+        "duration_days": 7,
+        "action": "Final light watering if soil is dry; monitor for white rust.",
+        "category": "Irrigation",
+        "details": "Oil synthesis peaks during this window."
+      },
+      {
+        "stage": "Maturity & Harvesting",
+        "day_offset": 105,
+        "duration_days": 6,
+        "action": "Harvest in early morning when 75% siliquae turn golden yellowish.",
+        "category": "Harvesting",
+        "details": "Harvesting when damp with morning dew avoids pod shattering losses."
+      }
+    ]
+  },
+  "Onion": {
+    "growth_duration_days": 130,
+    "seed_rate_kg_per_acre": 4.0,
+    "seed_unit": "kg (for nursery)",
+    "npk_kg_per_acre": {
+      "N": 50,
+      "P": 25,
+      "K": 40
+    },
+    "description": "Shallow-rooted bulb vegetable requiring frequent irrigation and friable, fertile soil.",
+    "stages": [
+      {
+        "stage": "Nursery Bed Sowing",
+        "day_offset": 0,
+        "duration_days": 40,
+        "action": "Sow seeds in raised nursery beds 10cm apart; protect from damping-off.",
+        "category": "Sowing",
+        "details": "Seedlings take 40-45 days to reach pencil thickness."
+      },
+      {
+        "stage": "Main Field Transplanting",
+        "day_offset": 45,
+        "duration_days": 6,
+        "action": "Transplant seedlings at 15x10cm spacing in flat beds.",
+        "category": "Planting",
+        "details": "Trim top 1/3rd of seedling leaves to reduce transplant transpiration shock."
+      },
+      {
+        "stage": "First Weeding & Top Dressing",
+        "day_offset": 65,
+        "duration_days": 6,
+        "action": "Apply 1st split of Nitrogen (Urea) and perform careful manual weeding.",
+        "category": "Fertilizer",
+        "details": "Onions have poor canopy competition; keep entirely weed-free."
+      },
+      {
+        "stage": "Bulb Initiation & Thrips Control",
+        "day_offset": 85,
+        "duration_days": 8,
+        "action": "Apply remaining Nitrogen and Potash; inspect leaves for silvery thrips patches.",
+        "category": "Pest Control",
+        "details": "Spray spinosad or neem formulation if thrips colonies spotted."
+      },
+      {
+        "stage": "Bulb Enlargement Stage",
+        "day_offset": 105,
+        "duration_days": 8,
+        "action": "Maintain uniform shallow irrigations; avoid waterlogging.",
+        "category": "Irrigation",
+        "details": "Uneven moisture cycles cause bulb cracking and splitting."
+      },
+      {
+        "stage": "Neck Fall & Curing Harvest",
+        "day_offset": 125,
+        "duration_days": 7,
+        "action": "Withhold water 10 days before harvest; harvest when 50% tops fall over.",
+        "category": "Harvesting",
+        "details": "Cure bulbs in field shade for 7-10 days to seal neck and maximize storage life."
+      }
+    ]
+  },
+  "Chilli (Hot Pepper)": {
+    "growth_duration_days": 150,
+    "seed_rate_kg_per_acre": 0.4,
+    "seed_unit": "kg",
+    "npk_kg_per_acre": {
+      "N": 60,
+      "P": 30,
+      "K": 35
+    },
+    "description": "High-value spice and vegetable crop needing warm sunny weather and pest-managed cultivation.",
+    "stages": [
+      {
+        "stage": "Nursery Seed Sowing",
+        "day_offset": 0,
+        "duration_days": 30,
+        "action": "Sow treated hybrid seeds in plug trays with cocopeat and vermicompost.",
+        "category": "Sowing",
+        "details": "Cover with shade net; maintain fine misting."
+      },
+      {
+        "stage": "Main Field Transplanting",
+        "day_offset": 32,
+        "duration_days": 5,
+        "action": "Transplant seedlings on ridges spaced 60x45cm with basal fertilizer.",
+        "category": "Planting",
+        "details": "Irrigate immediately after planting to minimize transplant shock."
+      },
+      {
+        "stage": "Weeding & 1st Top Dressing",
+        "day_offset": 55,
+        "duration_days": 6,
+        "action": "Apply 1st split of Nitrogen (Urea) and earth up ridges.",
+        "category": "Fertilizer",
+        "details": "Check under leaf surfaces for yellow thrips and mites."
+      },
+      {
+        "stage": "Flowering & Fruit Initiation",
+        "day_offset": 80,
+        "duration_days": 10,
+        "action": "Foliar spray of micronutrients (Zinc/Boron) & Potassium Nitrate.",
+        "category": "Fertilizer",
+        "details": "Prevents flower dropping during sudden temperature spikes."
+      },
+      {
+        "stage": "First Green Fruit Picking",
+        "day_offset": 105,
+        "duration_days": 8,
+        "action": "Harvest first flush of shiny green chillies every 7-10 days.",
+        "category": "Harvesting",
+        "details": "Regular picking stimulates new flower flush."
+      },
+      {
+        "stage": "Red Ripe Harvest & Sun Drying",
+        "day_offset": 140,
+        "duration_days": 10,
+        "action": "Pick fully mature deep-red pods; spread on drying yards.",
+        "category": "Harvesting",
+        "details": "Sun dry until pods rattle with ~10% moisture content."
       }
     ]
   }
